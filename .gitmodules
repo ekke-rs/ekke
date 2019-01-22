@@ -1,9 +1,9 @@
-[submodule "ekke_rpc"]
-	path = ekke_rpc
-	url = git@github.com:najamelan/ekke_rpc.git
 [submodule "apps/filebrowser"]
 	path = apps/filebrowser
 	url = git@github.com:najamelan/ekke_filebrowser.git
 [submodule "ekke_core"]
 	path = ekke_core
 	url = git@github.com:najamelan/ekke_core.git
+[submodule "ekke_io"]
+	path = ekke_io
+	url = git@github.com:najamelan/ekke_io.git

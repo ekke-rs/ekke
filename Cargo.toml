@@ -1,0 +1,9 @@
+[workspace]
+
+	members = [
+
+		  "ekke_core",
+		  "ekke_io",
+		  "apps/filebrowser"
+
+	]
