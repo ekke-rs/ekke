@@ -2,8 +2,9 @@
 
 	members = [
 
-		  "ekke_core",
-		  "ekke_io",
-		  "apps/filebrowser"
+		  "ekke_core"        ,
+		  "ekke_io"          ,
+		  "apps/filebrowser" ,
+		  "apps/systemd"
 
 	]

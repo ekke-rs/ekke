@@ -7,3 +7,6 @@
 [submodule "ekke_io"]
 	path = ekke_io
 	url = git@github.com:najamelan/ekke_io.git
+[submodule "apps/systemd"]
+	path = apps/systemd
+	url = git@github.com:najamelan/ekke_systemd.git
