@@ -4,7 +4,7 @@
 
 		  "ekke_core"        ,
 		  "ekke_io"          ,
-		  "apps/filebrowser" ,
+		  #"apps/filebrowser" ,
 		  "apps/systemd"
 
 	]
