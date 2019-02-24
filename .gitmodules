@@ -10,3 +10,12 @@
 [submodule "apps/systemd"]
 	path = apps/systemd
 	url = git@github.com:najamelan/ekke_systemd.git
+[submodule "ekke_config"]
+	path = ekke_config
+	url = git@github.com:najamelan/ekke_config.git
+[submodule "ekke_merge"]
+	path = ekke_merge
+	url = git@github.com:najamelan/ekke_merge
+[submodule "ekke_merge_derive"]
+	path = ekke_merge_derive
+	url = git@github.com:najamelan/ekke_merge_derive

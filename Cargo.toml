@@ -2,9 +2,12 @@
 
 	members = [
 
-		  "ekke_core"        ,
-		  "ekke_io"          ,
-		  #"apps/filebrowser" ,
-		  "apps/systemd"
-
+		"ekke_core"        ,
+		"ekke_io"          ,
+		"ekke_config"      ,
+		"ekke_merge"       ,
+		"ekke_merge/examples/derive",
+		"ekke_merge_derive",
+		#"apps/filebrowser" ,
+		"apps/systemd"     ,
 	]
