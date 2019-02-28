@@ -6,7 +6,6 @@
 		"ekke_io"          ,
 		"ekke_config"      ,
 		"ekke_merge"       ,
-		"ekke_merge/examples/derive",
 		"ekke_merge_derive",
 		#"apps/filebrowser" ,
 		"apps/systemd"     ,
