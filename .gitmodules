@@ -19,3 +19,6 @@
 [submodule "ekke_merge_derive"]
 	path = ekke_merge_derive
 	url = git@github.com:najamelan/ekke_merge_derive
+[submodule "apps/main"]
+	path = apps/main
+	url = git@github.com:najamelan/ekke_main
