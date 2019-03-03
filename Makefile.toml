@@ -1,0 +1,15 @@
+[tasks.run]
+
+	description = "Run ekke"
+	workspace   = false
+
+	script      = [
+
+		"cargo build --all",
+
+		"pushd apps/main/main_frontend",
+		"wasm-pack build --target no-modules",
+		"popd",
+		"cargo run --bin ekke",
+
+	]
