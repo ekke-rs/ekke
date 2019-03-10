@@ -13,3 +13,19 @@
 		"cargo run --bin ekke",
 
 	]
+
+[tasks.runrelease]
+
+	description = "Run ekke"
+	workspace   = false
+
+	script      = [
+
+		"cargo build --all --release",
+
+		"pushd apps/main/main_frontend",
+		"wasm-pack build --release --target no-modules --no-typescript",
+		"popd",
+		"cargo run --release --bin ekke",
+
+	]
