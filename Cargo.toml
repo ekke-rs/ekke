@@ -11,5 +11,5 @@
 		#"apps/filebrowser"       ,
 		"apps/main/main_backend"  ,
 		"apps/main/main_frontend" ,
-		"apps/systemd"            ,
+		#"apps/systemd"            ,
 	]
