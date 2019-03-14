@@ -22,3 +22,6 @@
 [submodule "apps/main"]
 	path = apps/main
 	url = git@github.com:najamelan/ekke_main
+[submodule "ekke_core_frontend"]
+	path = ekke_core_frontend
+	url = git@github.com:ekke-rs/ekke_core_frontend.git
