@@ -30,11 +30,21 @@ function build
 
 	for crate in $wasm_execs
 
+		if test (count $argv[1]) -gt 0 -a $argv[1] = "--release"
+
+			set mode
+
+		else
+
+			set mode --debug
+
+		end
+
 		pushd $crate
 
-			echo "wasm-pack build $argv[1] $crate"
+			echo "wasm-pack build $mode $crate"
 
-			wasm-pack build $argv[1] --target no-modules; or exit 1
+			wasm-pack build $mode --target no-modules; or exit 1
 
 		popd
 
